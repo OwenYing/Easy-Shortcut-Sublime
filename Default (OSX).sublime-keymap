@@ -1,0 +1,39 @@
+/*
+Author: Tiancheng Ying (https://owenying.github.io)
+Email: ytc@vt.edu
+
+<<<< Easy Shortcut for Mac>>>>
+1. cmd + f : jump one word backward
+2. cmd + j : jump one word forward
+3. cmd + g : jump to line start
+4. cmd + h : jump to line end
+5. cmd + u : jump to upper line (previous line)
+6. cmd + n : jump to next line (next line)
+7. cmd + dd : delete current line
+*/
+[
+	//1. cmd + f : jump one word backward
+	{ "keys": ["super+f"], "command": "move", "args": {"by": "words", "forward": false} },
+	// >>>> remap search(cmd + f) to (cmd + alt + f)
+	{ "keys": ["super+alt+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
+	
+	//2. cmd + j : jump one word forward
+	{ "keys": ["super+j"], "command": "move", "args": {"by": "words", "forward": true} },
+	
+	//3. cmd + g : jump to line start
+	{ "keys": ["super+g"], "command": "move_to", "args": {"to": "bol"} },
+	
+	//4. cmd + h : jump to line end
+	{ "keys": ["super+h"], "command": "move_to", "args": {"to": "eol"} },
+	
+	//5. cmd + u : jump to upper line (previous line)
+	{ "keys": ["super+u"], "command": "move", "args": {"by": "lines", "forward": false} },
+	
+	//6. cmd + n : jump to next line (next line)
+	{ "keys": ["super+n"], "command": "move", "args": {"by": "lines", "forward": true} },
+	// >>>> remap newFile(cmd + n) to (cmd + alt + n)
+	{ "keys": ["super+alt+n"], "command": "new_file" },
+
+	//7. cmd + dd: delete line
+	{ "keys": ["super+d", "super+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+]
