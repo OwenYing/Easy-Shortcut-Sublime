@@ -12,3 +12,18 @@
 3. "Preferences" --> "Key Bindings"
 4. Copy and paste ```this file``` into ```User key bindings```
 
+### Easy ShortCuts
+1. <kbd>command + f</kbd>: Jump one word ```backward```.
+2. <kbd>command + j</kbd>: Jump one word ```forward```.
+3. <kbd>command + g</kbd>: Jump to ```line start```.
+4. <kbd>command + h</kbd>: Jump to ```line end```.
+5. <kbd>command + u</kbd>: Jump to ```upper line```.
+6. <kbd>command + n</kbd>: Jump to ```next line```.
+7. <kbd>command + dd</kbd>: ```Delete``` current line. (dd: Double hit on d)
+
+
+
+
+
+### Contribute
+Please feel free to contribute your easy shortcut which can increase productivity.
