@@ -11,6 +11,7 @@
 2. Click "SublimeText" one the menu bar
 3. "Preferences" --> "Key Bindings"
 4. Copy and paste ```this file``` into ```User key bindings```
+![](./resources/Installation.gif)
 
 ### Easy ShortCuts
 1. <kbd>command + f</kbd>: Jump one word ```backward```.
