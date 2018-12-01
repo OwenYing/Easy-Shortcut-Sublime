@@ -5,3 +5,10 @@
 3. Sublime Text's shortcut is hard to remember?  😡
 
 <b>"Easy Shortcut sublime" is the solution</b>
+
+### How to install? -- So Easy!
+1. Open "SublimeText"
+2. Click "SublimeText" one the menu bar
+3. "Preferences" --> "Key Bindings"
+4. Copy and paste ```this file``` into ```User key bindings```
+
