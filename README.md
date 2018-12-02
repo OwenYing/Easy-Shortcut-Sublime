@@ -14,12 +14,12 @@
 ![](./resources/Installation.gif)
 
 ### Easy ShortCuts
-1. <kbd>command + f</kbd>: Jump one word ```backward```.
+1. <kbd>command + f</kbd>: Jump one word ```backward```. <kbd>command + alt + f</kbd> ```search```
 2. <kbd>command + j</kbd>: Jump one word ```forward```.
 3. <kbd>command + g</kbd>: Jump to ```line start```.
 4. <kbd>command + h</kbd>: Jump to ```line end```.
 5. <kbd>command + u</kbd>: Jump to ```upper line```.
-6. <kbd>command + n</kbd>: Jump to ```next line```.
+6. <kbd>command + n</kbd>: Jump to ```next line```. <kbd>command + alt + n</kbd> ```new file```
 7. <kbd>command + dd</kbd>: ```Delete``` current line. (dd: Double hit on d)
 
 
