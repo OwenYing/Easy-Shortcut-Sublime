@@ -10,7 +10,7 @@
 1. Open "SublimeText"
 2. Click "SublimeText" one the menu bar
 3. "Preferences" --> "Key Bindings"
-4. Copy and paste ```Default (OSX).sublime-keymap``` into ```User key bindings```
+4. Copy and paste [Default (OSX).sublime-keymap](https://github.com/OwenYing/Easy-Shortcut-Sublime/blob/master/Default%20(OSX).sublime-keymap) into ```User key bindings```
 ![](./resources/Installation.gif)
 
 ### Easy ShortCuts
